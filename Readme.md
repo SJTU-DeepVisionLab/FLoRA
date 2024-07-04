@@ -20,7 +20,7 @@ The official implementation of paper: "FLoRA: Low-Rank Core Space for N-dimensio
 ``` bibtex
 @article{si2024flora,
   title={FLoRA: Low-Rank Core Space for N-dimension},
-  author={Si, Chongjie and Wang, Xuehui and Yang, Xue and Xu, Zhengqin and Li, Qingyun and Dai, Jifeng and Qiao, Yu and Yang, Xiaokang and Shen, Wei},
+  author={Si, Chongjie* and Wang, Xuehui* and Yang, Xue and Xu, Zhengqin and Li, Qingyun and Dai, Jifeng and Qiao, Yu and Yang, Xiaokang and Shen, Wei},
   journal={arXiv preprint arXiv:2405.14739},
   year={2024}
 }
