@@ -251,11 +251,3 @@ class Embedding(BaseFLoRA):
         out = base_out + flora_out
         
         return out
-    
-_FLoRA_MAPPING = {
-    'linear': Linear,
-    'conv2d': Conv2D,
-    'conv3d': Conv3D,
-    'embedding': Embedding,
-    #TODO: add more
-}
