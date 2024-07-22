@@ -8,6 +8,7 @@ The official implementation of paper: "FLoRA: Low-Rank Core Space for N-dimensio
 
 
 ## Update log
+- **2024.07.22: For NLP task (GLUE benchmark), please refer to [Subspace-Tuning](https://github.com/Chongjie-Si/Subspace-Tuning).**
 - 2024.07.04: We refactor the core code of FLoRA for simplicity and release the code (**the core implementations are as same as the original implementations**). Please open an issue if you encounter bugs. You can integrate our code into your project easily (see [example](example.py)). Currently, we provide FLoRA layers for `linear`(2 dims), `conv2d`(4 dims), `conv3d`(5 dims), `embeddings`(1 dims). We also provide a base N-dims-FLoRA layer for high dimensions of weights. You can refer to our implementations of class `Linear`, `Conv2D` in `layers.py` for more details and then customize your class.
 
 
